@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\Nuwello"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "tea project"
+	}
+}

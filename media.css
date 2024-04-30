@@ -1,0 +1,400 @@
+@media screen and (max-width:1000px){
+#introabout .container div,#aboutsec2 .container div{
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px 8vw;
+} 
+#introabout p,#aboutsec2 .container p{
+        padding: 20px 0px;
+} 
+#aboutsec2 #container2 p{
+    padding: 20px 0px 0px 0vw;
+}
+#introabout .container img,#aboutsec2 .container img{
+    margin-top: 30px;
+     width: 82vw;
+     height: 45vw;
+} 
+#aboutsec2 #container2 div{
+        flex-direction: column-reverse;
+        justify-content: center;
+        padding: 0px 8vw;
+} 
+}
+
+@media screen and (max-width:900px){
+    #introabout h3, #introfranchise h3,#aboutsec1 h3,#contactsec1 h3,#franchisesec1 h3{
+        font-size: 4vw;
+    }
+    #introabout h1{
+        font-size: 7vw;
+    }
+    #introabout p{
+        font-size: 2.5vw;
+        padding: 0px 30px;
+    }
+    #introabout{
+        padding-top: 5vw;
+    }
+    #frlogo{
+        height: 38vw;
+    }
+    #introfranchise h2{
+        margin-top: 5px;
+        font-size: 6.2vw;
+        text-shadow: 0.18vw 0.18vw 0.18vw black;
+    }
+    /*--------------------------------------------About us page-------------------------------------------*/
+    #aboutsec2 .container p {
+        font-size: 3vw;
+        padding: 0px 30px;
+    }
+    /*--------------------------------------------Franchise page-------------------------------------------*/
+    #franchise h2{
+        font-size: 5vw;
+    }
+    #franchise #franchisesec2 h3{
+        font-size: 4.2vw;
+    }
+    #franchise p, #franchise #franchisesec2 ul li{
+        font-size: 3vw;
+    }
+    #franchise h5{
+        font-size: 3.4vw;
+    }
+}
+@media screen and (max-width:750px){
+    .navulli{
+        display: none;
+    }
+    #bars{
+        display: block; 
+    }
+    #introabout h3, #introfranchise h3,#aboutsec1 h3,#contactsec1 h3,#franchisesec1 h3{
+        font-size: 4.75vw;
+    }
+    #introabout p{
+        font-size: 3vw;
+        padding: 20px 3vw;
+    }
+    #aboutmore, #franchisemore{
+        font-size: 3vw;
+        box-shadow: 1px 1px 1px 1px rgb(0, 0, 0);
+    }
+    #introfranchise h2{
+        font-size: 7vw;
+        text-shadow: 0.18vh 0.18vh 0.18vh black;
+    }
+     /*--------------------------------------------About us page-------------------------------------------*/
+     #aboutsec2 .container p {
+        font-size: 3.5vw;
+        padding: 20px 6vw;
+    }
+    /*--------------------------------------------Franchise page-------------------------------------------*/
+    #franchise h2{
+        font-size: 6vw;
+    }
+    #franchise .logo{
+        height: 30vw;  
+    }
+    #franchise #franchisesec2 h3{
+        font-size: 5vw;
+    }
+    #franchise p, #franchise #franchisesec2 ul li{
+        font-size: 3.6vw;
+        padding: 10px 0px 10px ;
+    }
+    #franchise h5{
+        font-size: 4.2vw;
+    }
+    #franchise .files{
+        width: 70vw;
+    }
+    /*--------------------------------------------Contact page-------------------------------------------*/
+}
+@media screen and (max-width:600px){
+    #intro{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.671),
+                     rgba(0, 0, 0, 0.664)), url("images/tbg5.jpg");
+    }
+    @keyframes slider{
+        0% {
+            background-image:linear-gradient(rgba(0, 0, 0, 0.671),
+            rgba(0, 0, 0, 0.664)), url("images/tbg5.jpg") ; 
+        }
+    
+        20% {
+            background-image:linear-gradient(rgba(0, 0, 0, 0.671),
+            rgba(0, 0, 0, 0.664)), url("images/tbg5.jpg") ; 
+        }
+    
+        25% {
+            background-image:linear-gradient(rgba(0, 0, 0, 0.671),
+                 rgba(0, 0, 0, 0.664)), url("images/tbg6.jpeg") ;  
+        }
+    
+        45% {
+            background-image:linear-gradient(rgba(0, 0, 0, 0.671),
+                 rgba(0, 0, 0, 0.664)), url("images/tbg6.jpeg") ;  
+        }
+    
+        50% {
+            background-image:linear-gradient(rgba(0, 0, 0, 0.671),
+                 rgba(0, 0, 0, 0.664)), url("images/tbg7.jpg") ;  
+        }
+        70%{
+            background-image:linear-gradient(rgba(0, 0, 0, 0.671),
+                 rgba(0, 0, 0, 0.664)), url("images/tbg7.jpg") ;  
+        }
+        75%{
+            background-image:linear-gradient(rgba(0, 0, 0, 0.671),
+                 rgba(0, 0, 0, 0.664)), url("images/tbg8.jpg") ; 
+        }
+        95%{
+            background-image:linear-gradient(rgba(0, 0, 0, 0.671),
+                 rgba(0, 0, 0, 0.664)), url("images/tbg8.jpg") ; 
+        }
+        100%{
+            background-image:linear-gradient(rgba(0, 0, 0, 0.671),
+                 rgba(0, 0, 0, 0.664)), url("images/tbg5.jpg") ; 
+        }
+    }
+    #intro h1{
+        font-size: 9.25vw;
+        margin-top: 60px; 
+    }
+    #aboutsec1 h1,#contactsec1 h1,#franchisesec1 h1{
+        font-size: 12vw;
+    }
+    #intro h4{
+        margin-top: 30px;
+    }
+    #intro h4 b{
+        display: block;
+    }
+    #introextra h3{
+        font-size: 2rem;
+        width: 400px;
+    }
+    .slider {
+        width: 80vw;
+        height: 53vw;
+    }
+
+}
+@media screen and (max-width:500px){
+    #intro h1,#aboutsec1 h1,#contactsec1 h1,#franchisesec1 h1{
+        font-size: 9.8vw;
+    }
+    #intro h3,#aboutsec1 h3,#contactsec1 h3,#franchisesec1 h3{
+        font-size: 6.25vw;
+        width: 100vw;
+    }
+    #intro h4{
+        font-size: 5vw;
+        letter-spacing: 3px;
+    }
+    #frlogo{
+        height: 40vw;
+    }
+    #introabout h3, #introfranchise h3{
+        font-size: 5.75vw;
+    }
+    #introabout h1{
+        font-size: 7vw;
+    }
+    #introabout .container div{
+        padding: 0px 4vw;
+    } 
+    #introabout p{
+        font-size: 4vw;
+        padding: 10px 0px;
+    }
+    #aboutmore, #franchisemore{
+        font-size: 4.35vw;
+    }
+    #introfranchise h2{
+        font-size: 8vw;
+        text-shadow: 0.18vh 0.18vh 0.18vh black;
+    }
+    
+    /*--------------------------------------------About us page-------------------------------------------*/
+    #aboutsec2 .container p {
+        font-size: 4.5vw;
+        padding: 10px 0px;
+    }
+    #about .container div{
+        padding: 0px 4vw;
+    } 
+    /*--------------------------------------------Franchise page-------------------------------------------*/
+    #franchise h2{
+        font-size: 7vw;
+    }
+    #franchise .logo{
+        height: 35vw;  
+    }
+    #franchise #franchisesec2 h3{
+        font-size: 5.8vw;
+    }
+    #franchise p, #franchise #franchisesec2 ul li{
+        font-size: 4.3vw;
+    }
+    #franchise h5{
+        font-size: 5vw;
+    }
+    #franchise .files{
+        width: 95vw;
+    }
+    /*--------------------------------------------Contact page-------------------------------------------*/
+#contact p{
+    font-size: 6vw;
+}
+#contact h3{
+    font-size: 7vw;
+}
+#contact h2{
+    font-size: 8vw;
+}
+#contact h4{
+    font-size: 6.75vw;
+}
+}
+@media screen and (max-width:400px){
+    #nlogo{
+        margin-left: 10px;
+    }
+    #navul {
+        margin-right: 10px;
+    } 
+    #frlogo{
+        height: 38vw;
+    }
+    #introabout h3, #introfranchise h3,#aboutsec1 h3,#contactsec1 h3,#franchisesec1 h3{
+          font-size: 6.4vw;
+    }
+    #introabout h1{
+        font-size: 7.5vw;
+    }
+    #introabout p{
+        font-size: 4.5vw;
+    }
+    #aboutmore, #franchisemore{
+        font-size: 4.75vw;
+    }
+    #introfranchise h2{
+        font-size: 9.25vw;
+        text-shadow: 0.18vh 0.18vh 0.18vh black;
+    }
+    footer h1{
+        font-size: 7vw;
+    }
+    footer h4{
+        font-size: 5.75vw;
+    }
+    /*--------------------------------------------About us page-------------------------------------------*/
+    #aboutsec2 .container p {
+        font-size: 5vw;
+    }
+    /*--------------------------------------------Franchise page-------------------------------------------*/
+    #franchise h2{
+        font-size: 7.5vw;
+    }
+    #franchise .logo{
+        height: 38vw;  
+    }
+    #franchise #franchisesec2 h3{
+        font-size: 6.2vw;
+    }
+    #franchise p, #franchise #franchisesec2 ul li{
+        font-size: 5vw;
+    }
+    #franchise h5{
+        font-size: 5.5vw;
+    }
+}
+@media screen and (max-width:275px){
+    #intro h4{
+        margin-top: 5vh;
+    }
+    #intro h3, #introabout h3, #introfranchise h3{
+        font-size: 6vw;
+    }
+    #introabout p{
+        font-size: 6vw;
+        padding: 0px 10px;
+    }
+    #aboutmore{
+       margin-top: 5px;
+    }
+   #whatsappkey{
+        bottom: 5px;
+        right: 0px;
+    }
+    #explorekey{
+        bottom: 5px;
+        left: 0px;
+    }
+    #explorekey h5 ,#whatsappkey h5{
+        padding: 5px;
+        font-size: 0.75rem;
+    }
+    #key, #whatsapp{
+        height: 30px;
+        width: 30px;
+    }
+     /*--------------------------------------------About us page-------------------------------------------*/
+    #aboutsec1 h1, #franchisesec1 h1{
+            font-size: 20vw;
+    }
+    #aboutsec1 h3,#aboutsec2 h3{
+        font-size: 12vw;
+    }
+    #franchise #franchisesec1 h3{
+        font-size: 10vw;
+    }
+    #aboutsec2 .container p {
+        font-size: 6vw;
+        padding: 0px 10px;
+    }
+}
+
+/*-----------for landscape mode-------------*/
+@media screen and (max-height:545px){
+    #explorekey,#whatsappkey{
+        bottom: 5px;
+        flex-direction: row;
+    }
+    #explorekey h5,#whatsappkey h5{
+        padding: 5px;
+        font-size: 1rem;
+        margin-right:1vw;
+    }
+    #key,#whatsapp{
+        height: 30px;
+        width: 30px;
+    }
+    #intro h3{
+        top: 5vh;
+    }
+
+}
+@media screen and (max-height:385px){
+#secnavul{
+    margin-top: 5px;
+}
+.secnavulli{
+    padding: 5px 0px;
+}
+#secnav .social{
+    display: none;
+}
+#index section{
+    width: 100%;
+    min-height: 100%;
+    max-height:fit-content;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    z-index: 1;
+}
+
+}

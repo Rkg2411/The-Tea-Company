@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" type="text/css" href="css/all.min.css">
+    <title>Tea Company - India's Fastest Growing Tea Cafe Brand</title>
+    <meta name="description"
+        content="The Tea-Company introduce itself in 2016, in food and beverage industry. The Tea-Company started as a
+    tea cafe and in few year became fastest growing tea cafe franchise in india. We have 10 outlets in 3 states in india.">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large" />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="author" content="Nishant Gupta">
+</head>
+
+<body id="contact">
+    <nav id="navigation" style="top: 0;">
+        <img src="images/logo.png" alt="" id="nlogo">
+        <ul id="navul">
+            <li class="navulli"><a href="index.html">
+                    <h1>Tea Company</h1>
+                </a></li>
+            <li class="navulli"><a href="aboutus.html">About us</a></li>
+            <li class="navulli"><a href="franchise.html">Franchise</a></li>
+            <li class="navulli"><a href="contact.html">Contact</a></li>
+            <i class="fas fa-bars fa-2x" onclick="secnavDisplay()" id="bars"></i>
+        </ul>
+    </nav>
+    <aside id="secnav" style="display: none;">
+        <ul id="secnavul">
+            <li class="secnavulli"><a href="index.html">
+                    <h1>Tea Company</h1>
+                </a></li>
+            <li class="secnavulli"><a href="aboutus.html">About us</a></li>
+            <li class="secnavulli"><a href="franchise.html">Franchise</a></li>
+            <li class="secnavulli"><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="social" id="secsocial">
+            <a href="https://www.instagram.com/theteacompanyofficially/" target="_blank"><i class="fab fa-instagram fa-lg"
+                    style="color: rgb(192, 1, 160); "></i></a>
+            <a href="https://m.facebook.com/Theteacompany-100430345917710/?ref=bookmarks" target="_blank"><i
+                    class="fab fa-facebook fa-lg" style="color: rgb(58, 85, 175);"></i></a>
+        </div>
+    </aside>
+    <div id="whatsappkey">
+        <h5>ask franchise?</h5>
+        <div id="whatsapp"><a href="whatsapp://send?text=Hello&phone=+919329965601" target="_blank"><i class="	fab fa-whatsapp fa-2x"
+                    style="color: rgb(255, 255, 255);"></i></a></div>
+    </div>
+    <section id="contactsec1">
+        <div class="balls"></div>
+        <h1>Contact Us</h1>
+    </section>
+    <section id="contactsec2">
+        <p>We are availavle 24x7 to answer all your querries and your suggestions are very important for us to improve
+            our work and system so you can get its benefits more efficiently. </p>
+        <h3 data-aos="fade-up-right">stay in touch with</h3>
+        <h2 data-aos="fade-down-left">Tea-Company</h2>
+        <h3 data-aos="fade-up-right">click to call</h3>
+        <h4 data-aos="fade-down-left"><a href="tel:+919329965601" target="_blank">9329965601</a></h4>
+        <h3 data-aos="fade-up-right">click to mail</h3>
+        <h4 data-aos="fade-down-left"><a href="mailto:theteacompanygroup@gmail.com" target="_blank">theteacompanygroup@gmail.com</a></h4>
+        <h3 data-aos="fade-up-right">follow us</h3>
+        <div class="social">
+            <a href="https://www.instagram.com/theteacompanyofficially/"  target="_blank"><i class="fab fa-instagram fa-lg"
+                    style="color: rgb(192, 1, 160); "></i></a>
+            <a href="https://m.facebook.com/Theteacompany-100430345917710/?ref=bookmarks" target="_blank"><i
+                    class="fab fa-facebook fa-lg" style="color: rgb(58, 85, 175);"></i></a>
+        </div>
+    </section>
+    <!--Script portion-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 150,
+            duration: 700,
+            once: true,
+        });
+    </script>
+    <script>
+        function secnavDisplay() {
+            if (document.getElementById('secnav').style.display != "none") {
+                document.getElementById('secnav').style.display = "none"
+            } else {
+                document.getElementById('secnav').style.display = "block"
+            }
+        }
+    </script>
+</body>
+
+</html>
